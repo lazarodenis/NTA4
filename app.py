@@ -1,2 +1,7 @@
 import streamlit as st
-st.write("THIS IS MY NEW APP")
+username = st.text_input("Enter Username")
+age =st.number_input("Enter your age")
+if username=username and age>=18:
+  st.write("Vote")
+else:
+  st.write("Not vote")
