@@ -5,5 +5,5 @@ if username==username and age >= 18:
   st.write("Vote")
 else:
   st.write("Not vote")
-if age>=120:
+if age>120:
   st.write("Not Human")
