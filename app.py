@@ -1,9 +1,9 @@
 import streamlit as st
 username = st.text_input("Enter Username")
 age =st.number_input("Enter your age")
-if username==username and age >=18:
+if username==username and age >= 18 <= 120:
   st.write("Vote")
 else:
   st.write("Not vote")
-elif: age >= 120:
+if age > 120:
   st.write("Not Human")
